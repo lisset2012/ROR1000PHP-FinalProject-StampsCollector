@@ -1,0 +1,25 @@
+Collections
+-
+CollectionID PK int
+OwnerCollName string
+YearIssued int
+
+Albums
+-
+AlbumID PK int
+AlbumName string
+YearIssued int
+TotalStamps int
+StampID int
+CollectionID int FK >- Collections.CollectionID
+
+Stamps
+-
+StampID PK int
+YearIssued int
+PicURL string
+Description string
+RepeatedStamps int
+SizeWidth int
+SizeHeigth int
+AlbumID int FK >- Albums.AlbumID

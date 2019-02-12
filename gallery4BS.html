@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Gallery 4 Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
+
+</head>
+<body>
+        <div class="container">
+     
+ 
+ 
+            <div class="container gallery-container">
+                
+                <h1 class="text-center">A Stamp for every Country</h1>
+                
+              
+                    
+                <div class="tz-gallery">
+                
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/flags/Brasil.jpg">
+                                <img src="img/flags/Brasil.jpg" alt="Park" class="card-img-top">
+                                
+                                </a>
+                                
+                            </div>
+                        </div>
+                            
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/flags/USA.png">
+                                <img src="img/flags/USA.png" alt="Park" class="card-img-top">
+                                </a>
+                            </div>
+                        </div>
+                            
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/flags/spain.jpg">
+                                <img src="img/flags/spain.jpg" alt="Park" class="card-img-top">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row"> 
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/flags/sudafrica.jpg">
+                                <img src="img/flags/sudafrica.jpg" alt="Park" class="card-img-top">
+                                </a>
+                            </div>
+                        </div>
+                            
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/flags/mexico.jpg">
+                                <img src="img/flags/mexico.jpg" alt="Park" class="card-img-top">
+                                </a>
+                            </div>
+                        </div>
+                            
+                        <div class="col-md-4">
+                            <div class="card">
+                                <a class="lightbox" href="img/flags/chile.jpg">
+                                <img src="img/flags/chile.jpg" alt="Park" class="card-img-top">
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="sticky-menu">
+                            <ul>
+                                <li><a href="#" class="active">Home</a></li>
+                                <li><a href="#">Add New Stamp</a></li>
+                                <li><a href="#">List By Year</a></li>
+                                <li><a href="#">Repeated</a></li>
+                                <li><a href="#">Not Glued</a></li>
+                                <li><a href="#">Sign In</a></li>
+                            </ul>
+                                
+                    </div>
+                </div>
+
+               
+                
+            </div>
+            
+                 
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>\
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <!-- baguetteBox.js is a simple Javascript library for displaying a gallery of images in a fully responsive & customizable lightbox. -->
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else
+            {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</body>
+</html>

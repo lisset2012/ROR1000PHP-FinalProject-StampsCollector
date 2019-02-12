@@ -1,0 +1,9 @@
+Homework #2 Email the professor with the answers to the following questions. These questions are intended to help you think critically about the project, motivate you and guide your work.
+
+Since stamps require images, and they should be persisted, what is your strategy to save the image? Are you going to convert it into a base64 String and save the whole image it in the database OR save the image on the file system, and add the name to the database? Whatever is your answer, why do you consider this the best way to proceed?
+
+Stamps have a group of attributes, so you will probably need a data structure to represent stamps. In PHP, that structure most likely be an associative array or an object. Give it a though and answer which structure are you going to use and why?
+
+If you choose to treat your stamps as objects, how are you going to save the object in the database? Are you planning to save each attribute to a different column manually or use an ORM system? Explain your answers on detail.
+
+When saving passwords on the database, plain text is not an option. What is your strategy to store the user password? Are you going to encrypt or hash the password? No matter what your answer is, explain why and what algorithm do you plan to use.

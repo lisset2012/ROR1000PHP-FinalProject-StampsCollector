@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Grid con BS4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="row">
+            <div class="col">
+                <h1>Brasil</h1>
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Add New Stamp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">List By Year</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Repeated</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Not Glued</a>
+                        </li>
+                    </ul>
+                </nav>        
+            </div>
+        </header>
+
+        <!-- ALBUMS GALLERY -->
+        <section class="row widgets justify-content-between">
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/Brasil.jpg" alt="Brasil">
+                </a>
+                <p>Brasil</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/chile.jpg" alt="Chile">
+                </a>
+                <p>Chile</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/germany.jpg" alt="Germany">
+                </a>
+                <p>Germany</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/vietnam.jpg" alt="Viet Nam">
+                </a>
+                <p>Viet Nam</p>
+            </div>
+            
+        </section>
+        <section class="row widgets justify-content-between">
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/mexico.jpg" alt="Mexico">
+                </a>
+                <p>Mexico</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/spain.jpg" alt="Spain">
+                </a>
+                <p>Spain</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/sudafrica.jpg" alt="South Africa">
+                </a>
+                <p>South Africa</p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3  widget">
+                <a href="">
+                    <img src="img/flags/USA.png" alt="USA">
+                </a>
+                <p>USA</p>
+            </div>
+            
+        </section>
+        
+
+        
+       
+               
+        
+    </div>
+
+    <!-- Boostrap usa las librerias de jQuery y Popper, asi que hay que copiar sus CDNs de las paginas webs de cada una -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

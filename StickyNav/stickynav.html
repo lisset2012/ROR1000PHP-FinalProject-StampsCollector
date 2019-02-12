@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Sticky Menu Bar</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Add New Stamp</a></li>
+            <li><a href="#">List By Year</a></li>
+            <li><a href="#">Repeated</a></li>
+            <li><a href="#">Not Glued</a></li>
+        </ul>
+    </nav>
+        <section class="sec1"></section>
+        <section class="content">
+            <h1>What is Lorem Ipsum</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies leo nec vulputate pretium. Ut maximus dui placerat pellentesque consectetur. Suspendisse a ornare ex. Aenean dictum ut orci id auctor. Aliquam magna mauris, interdum sed augue id, sollicitudin fermentum erat. Sed efficitur varius leo, vel vulputate nisi sollicitudin ut. Cras semper accumsan magna. Donec sed nisi scelerisque, sollicitudin elit vel, porta mauris. Nullam sit amet magna eget ligula mollis tincidunt eget et leo. Fusce bibendum massa sed ante cursus blandit. Curabitur cursus volutpat eros, nec condimentum nisi. Mauris condimentum, leo at molestie interdum, dolor ante varius tellus, at ultricies turpis orci nec ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                <br><br>
+            Suspendisse lorem justo, porta non nisi a, blandit placerat metus. Sed pellentesque nisi eu massa fermentum commodo. Suspendisse ut eros semper, faucibus nibh vel, venenatis ante. Vestibulum tincidunt, tortor eu euismod elementum, metus lacus dignissim tellus, et pretium dolor velit sit amet dolor. Nullam ut lectus risus. Proin vitae massa vel orci convallis tempus. In dictum tellus arcu, id euismod neque dignissim ut. Nam sollicitudin mauris quis quam congue, ut tincidunt metus placerat. Duis euismod, ex quis vulputate porta, velit massa porttitor nunc, eu commodo tellus risus nec nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra justo felis, non pulvinar tortor dignissim posuere. Duis iaculis, orci vitae dapibus bibendum, sapien ipsum molestie felis, ut ultrices turpis metus accumsan nisi. Sed non nisl nisl. Curabitur malesuada leo sed quam lobortis, tristique vestibulum turpis consequat.</p>
+        </section>
+        <section class="sec2"></section>
+        <section class="content">
+            <h1>What is Lorem Ipsum</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies leo nec vulputate pretium. Ut maximus dui placerat pellentesque consectetur. Suspendisse a ornare ex. Aenean dictum ut orci id auctor. Aliquam magna mauris, interdum sed augue id, sollicitudin fermentum erat. Sed efficitur varius leo, vel vulputate nisi sollicitudin ut. Cras semper accumsan magna. Donec sed nisi scelerisque, sollicitudin elit vel, porta mauris. Nullam sit amet magna eget ligula mollis tincidunt eget et leo. Fusce bibendum massa sed ante cursus blandit. Curabitur cursus volutpat eros, nec condimentum nisi. Mauris condimentum, leo at molestie interdum, dolor ante varius tellus, at ultricies turpis orci nec ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                <br><br>
+            Suspendisse lorem justo, porta non nisi a, blandit placerat metus. Sed pellentesque nisi eu massa fermentum commodo. Suspendisse ut eros semper, faucibus nibh vel, venenatis ante. Vestibulum tincidunt, tortor eu euismod elementum, metus lacus dignissim tellus, et pretium dolor velit sit amet dolor. Nullam ut lectus risus. Proin vitae massa vel orci convallis tempus. In dictum tellus arcu, id euismod neque dignissim ut. Nam sollicitudin mauris quis quam congue, ut tincidunt metus placerat. Duis euismod, ex quis vulputate porta, velit massa porttitor nunc, eu commodo tellus risus nec nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra justo felis, non pulvinar tortor dignissim posuere. Duis iaculis, orci vitae dapibus bibendum, sapien ipsum molestie felis, ut ultrices turpis metus accumsan nisi. Sed non nisl nisl. Curabitur malesuada leo sed quam lobortis, tristique vestibulum turpis consequat.</p>
+        </section>
+        <section class="sec3"></section>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(window).on('scroll', function(){
+                if($(window).scrollTop()){
+                    $('nav').addClass('black');
+                }
+                else
+                {
+                    $('nav').removeClass('black');
+                }
+            })
+        </script>
+</body>
+</html>

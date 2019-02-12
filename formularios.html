@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Grid</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col mb-3">
+                <form action="">
+
+                    <div class="form-group row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="password">Contrasena</label>
+                            <input type="password" class="form-control" placeholder="password" name="password" id="password">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+                            <label for="pais">Pais</label>
+                            <select name="pais" id="pais" class="form-control">
+                                <option value="mexico">Mexico</option>
+                                <option value="espana">Espana</option>
+                                <option value="colombia">Colombia</option>
+                            </select>
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+                            <label for="">Sexo</label>
+                            <div class="form-check">
+                                <label for="" class="form-check-label">
+                                    <input type="radio" name="sexo" id="hombre" class="form-check-input mr-2">Hombre
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="" class="form-check-label">
+                                    <input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
+                                </label>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-check mb-3">
+                            <label for="" class="form-check-label">
+                                <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto Terminos y Condiciones
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <input type="submit" class="btn btn-primary btn-block mb-3" value="Enviar">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>I don't have an account</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boostrap usa las librerias de jQuery y Popper, asi que hay que copiar sus CDNs de las paginas webs de cada una -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
